@@ -165,8 +165,4 @@ This project improved my understanding of Salesforce automation concepts and str
 
 ---
 
-## 👨‍💻 Author
 
-**Nakka Rajeev**
-
-Salesforce Developer Internship – Day 3 Assignment
