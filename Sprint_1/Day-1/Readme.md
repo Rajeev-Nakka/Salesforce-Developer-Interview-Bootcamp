@@ -10,7 +10,6 @@ The project is based on a **Car Service Center Management System**, where I desi
 
 ---
 
-# ✅ Tasks Completed
 
 ## Task 1 – Data Model
 
@@ -24,7 +23,7 @@ Created the following custom objects:
 Implemented relationships between objects:
 
 - Vehicle → Appointment
-- Vehicle → Invoice
+- Appointment → Invoice
 - Appointment → Technician
 
 ### Skills Learned
