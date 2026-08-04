@@ -324,22 +324,52 @@ update application;
 
 ---
 
-# Project Structure
+## Source Code Structure
 
-```
-Sprint_5
-
+```text
+VehicleProject
 │
-
-├── ApplicatonService.cls
-
-├── ApplicatonService.cls-meta.xml
-
-├── Execute Anonymous Scripts
-
-├── SOQL Queries
-
-└── README.md
+├── force-app
+│   └── main
+│       └── default
+│           ├── classes
+│           │   ├── StudentService.cls
+│           │   ├── StudentService.cls-meta.xml
+│           │   ├── JobService.cls
+│           │   ├── JobService.cls-meta.xml
+│           │   ├── ApplicationValidationService.cls
+│           │   ├── ApplicationValidationService.cls-meta.xml
+│           │   ├── ApplicationService.cls
+│           │   ├── ApplicationService.cls-meta.xml
+│           │   ├── ApplicationStatusService.cls
+│           │   └── ApplicationStatusService.cls-meta.xml
+│           │
+│           ├── objects
+│           │   ├── Student__c
+│           │   ├── Job__c
+│           │   └── Application__c
+│           │
+│           └── triggers
+│
+├── scripts
+│   ├── apex
+│   │   ├── task1_getStudent.apex
+│   │   ├── task2_getJob.apex
+│   │   ├── task3_checkDuplicate.apex
+│   │   ├── task4_submitApplication.apex
+│   │   ├── task5_updateStatus.apex
+│   │   └── task6_businessTransaction.apex
+│   │
+│   └── soql
+│       ├── student.soql
+│       ├── job.soql
+│       ├── application.soql
+│       └── duplicate.soql
+│
+├── README.md
+├── sfdx-project.json
+├── package.json
+└── .gitignore
 ```
 
 ---
